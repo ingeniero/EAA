@@ -1,8 +1,8 @@
 ﻿namespace EAA
 {
     using System;
-    using System.IO;
-    using System.Text;
+    //using System.IO;
+    //using System.Text;
 
     public class Class1
     {
@@ -126,24 +126,24 @@
 
             try
             {
-                //Open the File
-                var sw = new StreamWriter("C:\\Test.txt", true, Encoding.Unicode);
+                ////Open the File
+                //var sw = new StreamWriter("C:\\Test.txt", true, Encoding.Unicode);
 
-                //Write a line of text
-                sw.WriteLine();
-                sw.WriteLine("My method results");
-                sw.WriteLine("DateTime.Now = {0}", DateTime.Now);
-                sw.WriteLine("_timeCompare = {0}", _timeCompare);
-                sw.WriteLine();
-                sw.WriteLine("Moadip method results");
-                sw.WriteLine("_timeNow = {0}", _timeNow);
-                sw.WriteLine("_timeStop = {0}", _timeStop);
-                //sw.WriteLine("_lastDay = {0}", _lastDay);
-                sw.WriteLine("_endOfDay = {0}", _endOfDay);
-                sw.WriteLine("_newCompare = {0}", _newCompare);
+                ////Write a line of text
+                //sw.WriteLine();
+                //sw.WriteLine("My method results");
+                //sw.WriteLine("DateTime.Now = {0}", DateTime.Now);
+                //sw.WriteLine("_timeCompare = {0}", _timeCompare);
+                //sw.WriteLine();
+                //sw.WriteLine("Moadip method results");
+                //sw.WriteLine("_timeNow = {0}", _timeNow);
+                //sw.WriteLine("_timeStop = {0}", _timeStop);
+                ////sw.WriteLine("_lastDay = {0}", _lastDay);
+                //sw.WriteLine("_endOfDay = {0}", _endOfDay);
+                //sw.WriteLine("_newCompare = {0}", _newCompare);
 
-                //close the file
-                sw.Close();
+                ////close the file
+                //sw.Close();
             }
             catch (Exception e)
             {
