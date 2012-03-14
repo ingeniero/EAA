@@ -122,6 +122,7 @@
             //Console.WriteLine("_lastDay = {0}", _lastDay);
             Console.WriteLine("_endOfDay = {0}", _endOfDay);
             Console.WriteLine("_newCompare = {0}", _newCompare);
+            Console.WriteLine("new log info");
             Console.ReadLine();
 
             try
